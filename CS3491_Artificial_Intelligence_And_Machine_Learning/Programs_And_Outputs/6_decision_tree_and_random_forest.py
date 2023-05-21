@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
 
-data = pd.read_csv("data/flowers.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/DJDarkCyber/Lab-Sem4/main/CS3491_Artificial_Intelligence_And_Machine_Learning/Programs_And_Outputs/data/flowers.csv")
 X = data.drop("species", axis=1)
 y = data["species"]
 

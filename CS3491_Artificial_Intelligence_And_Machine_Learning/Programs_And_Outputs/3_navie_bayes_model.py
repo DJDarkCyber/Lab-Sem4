@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.naive_bayes import GaussianNB
 
-df = pd.read_csv("data/data.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/DJDarkCyber/Lab-Sem4/main/CS3491_Artificial_Intelligence_And_Machine_Learning/Programs_And_Outputs/data/data.csv")
 
 X = df.drop('buy_computer', axis=1)
 y = df['buy_computer']
